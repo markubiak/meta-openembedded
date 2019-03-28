@@ -6,10 +6,10 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 
 SRC_URI = "https://github.com/wertarbyte/triggerhappy/archive/debian/0.5.0-1.tar.gz"
 
-SRC_URI[md5sum] = "d7e78a0c0e0d5d786111ee92a0fbcf81"
-SRC_URI[sha256sum] = "36e59d16562f66308158208d46f2b27017fa1947a47266110b3ed7e0789d0a35"
+SRC_URI[md5sum] = "77f90a18c775e47c4c5e9e08987ca32f"
+SRC_URI[sha256sum] = "9150bafbf7f2de7d57e6cc154676c33da98dc11ac6442e1ca57e5dce82bd4292"
 
-S = "${WORKDIR}/${PN}-debian"
+S = "${WORKDIR}/${PN}-debian-${PV}-1"
 
 inherit autotools-brokensep pkgconfig update-rc.d systemd
 
